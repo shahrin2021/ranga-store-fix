@@ -5,7 +5,8 @@ body {
 }
 header{
   background-color: hsl(180, 100%, 49%);
-  margin-bottom: 60px;
+  padding: 30px 0 50px 0;
+  
   
 }
 
@@ -14,6 +15,8 @@ header{
   color:hsl(288, 91%, 71%);
   font-size: 50px;
   font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .subtitle{
@@ -48,8 +51,7 @@ header{
   max-width: 500px;
   margin: 0 auto;
   border: 1px solid #ddd;
-  margin-bottom: 60px;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 10px;
   background-color: #ddd;
   border-radius: 5px;
@@ -67,8 +69,11 @@ header{
   margin: auto;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
   
 }
+
+
 .single-product {
   padding: 10px;
   transition: 0.6s;
@@ -174,6 +179,7 @@ header{
 .footer-title{
   color: hsl(317, 100%, 43%);
 }
+
 /* media query  */
 @media only screen and (max-width: 768px) {
   #all-products {
