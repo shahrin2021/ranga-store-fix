@@ -3,18 +3,27 @@ body {
   font-family: "Montserrat", sans-serif;
   
 }
+header{
+  background-color: hsl(180, 100%, 49%);
+  margin-bottom: 60px;
+  
+}
 
 /* title */
 .title{
   color:hsl(288, 91%, 71%);
   font-size: 50px;
+  font-weight: bold;
 }
 
 .subtitle{
   font-size: 40px;
-  color: hsl(133, 100%, 50%);
+  color: #000000;
+  font-weight: bold;
 }
-
+.subtitle span{
+  color: hsl(21, 100%, 43%);
+}
 /* search-area  style css*/
 
 .search-box{
@@ -160,6 +169,10 @@ body {
   font-size: 18px;
   padding: 20px 0;
   color: #090909;
+}
+
+.footer-title{
+  color: hsl(317, 100%, 43%);
 }
 /* media query  */
 @media only screen and (max-width: 768px) {
